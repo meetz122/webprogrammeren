@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <title> Opgave 1 </title>
+</head>
+<body>
+	<!-- javascript code -->
+	<script>
+	//stoont een pop-up scherm
+	/*
+	meer regels
+	*/
+	var bedrag;
+	
+	bedrag = prompt("Wat is je aankoopbedrag?", "Vul hier het aankoopbedrag in");
+	
+    bedrag = parseFloat(bedrag);
+    
+	if(bedrag >= 25 ){
+		alert("Gratis berzorgen, het totaalbedrag is " + bedrag + ".");
+	} else {
+		alert( bedrag + 3.95 + " is het totaalbedrag inclusief bezorgkosten.");
+	}
+	</script>
+</body>
+</html>
